@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pasupuleti Lalith Krishna | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .hero-gradient {
+      background: linear-gradient(135deg, #2563eb 0%, #3b82f6 35%, #10b981 100%);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-blue-500 selection:text-white">
+
+  <!-- Navigation -->
+  <nav class="sticky top-0 z-50 backdrop-blur-md bg-white/80 border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="font-bold text-lg tracking-tight text-slate-900">Lalith Krishna</a>
+      <div class="flex items-center gap-6 text-sm font-semibold text-slate-600">
+        <a href="#about" class="hover:text-blue-600 transition-colors">About</a>
+        <a href="#projects" class="hover:text-blue-600 transition-colors">Projects</a>
+        <a href="#skills" class="hover:text-blue-600 transition-colors">Skills</a>
+        <a href="#education" class="hover:text-blue-600 transition-colors">Education</a>
+        <a href="#resume" class="px-3.5 py-1.5 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition-colors">Resume</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-gradient text-white py-24 px-6 text-center shadow-inner">
+    <div class="max-w-4xl mx-auto space-y-4">
+      <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight">Hello, I'm Pasupuleti Lalith Krishna</h1>
+      <p class="text-xl md:text-2xl font-medium text-blue-100">Aspiring Data Analyst</p>
+      <div class="pt-6 flex flex-wrap items-center justify-center gap-4">
+        <a href="#projects" class="px-7 py-3 rounded-xl bg-white text-slate-900 font-bold hover:bg-slate-100 hover:shadow-lg transition-all duration-200 shadow-md">
+          View My Work
+        </a>
+        <a href="#resume" class="px-7 py-3 rounded-xl bg-blue-700/60 text-white font-bold border border-white/20 hover:bg-blue-700/80 transition-all duration-200">
+          Get Resume
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-6 py-16 space-y-24">
+
+    <!-- About Me Section with Photo Block -->
+    <section id="about" class="bg-white rounded-3xl p-8 md:p-12 border border-slate-200/80 shadow-xl shadow-slate-100">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 items-center">
+        
+        <!-- Left: About Text -->
+        <div class="md:col-span-7 space-y-5 text-left">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-semibold uppercase tracking-wider">
+            About Me
+          </div>
+          <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">Data Analysis, Finance & Problem Solving</h2>
+          <p class="text-slate-600 leading-relaxed text-base md:text-lg">
+            I am an aspiring Data Analyst who really loves data analysis, finance and solving problems. 
+            I know how to use Excel, the basics of Python and MySQL. I have spent time working with real data. 
+            I want to use data to figure out what is going wrong and help people make choices. 
+            I am very eager to learn more about data analytics, finance, and management. 
+            My goal is to improve my skills while working in an environment.
+          </p>
+          <div class="pt-2 flex flex-wrap gap-3">
+            <span class="px-3.5 py-1.5 bg-slate-100 text-slate-700 rounded-lg text-xs font-bold">📍 Tirupati, Andhra Pradesh</span>
+            <span class="px-3.5 py-1.5 bg-emerald-50 text-emerald-700 rounded-lg text-xs font-bold">🎯 Open to Data Roles</span>
+          </div>
+        </div>
+
+        <!-- Right: Photo Block -->
+        <div class="md:col-span-5 flex justify-center md:justify-end">
+          <div class="relative group">
+            <div class="absolute -inset-1 rounded-3xl bg-gradient-to-r from-blue-600 to-emerald-500 opacity-30 blur-md group-hover:opacity-50 transition duration-300"></div>
+            <div class="relative w-64 h-80 sm:w-72 sm:h-96 rounded-2xl overflow-hidden shadow-xl border-4 border-white bg-slate-100 flex items-center justify-center">
+              <img 
+                src="/Users/lalithkrishnapasupuleti/Downloads/WhatsApp Image 2026-05-29 at 11.52.10.jpeg" 
+                alt="Pasupuleti Lalith Krishna" 
+                class="w-full h-full object-cover"
+                onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'text-center p-6 text-slate-400\'><svg class=\'w-16 h-16 mx-auto mb-2 text-slate-300\' fill=\'currentColor\' viewBox=\'0 0 24 24\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg><p class=\'text-xs font-semibold\'>Add photo.jpg in assets/ folder</p></div>';"
+              />
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="space-y-10">
+      <div class="text-center space-y-2">
+        <h2 class="text-3xl font-extrabold text-slate-900">Projects</h2>
+        <p class="text-slate-500">Computer vision systems, non-invasive risk screening, and analytical dashboards.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        
+        <!-- Project 1: Driver Drowsiness Detection -->
+        <div class="bg-white rounded-2xl p-8 border border-slate-100 shadow-xl shadow-slate-100 flex flex-col justify-between space-y-6 hover:-translate-y-1 transition-all">
+          <div class="space-y-4">
+            <div class="w-14 h-14 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+              </svg>
+            </div>
+            <div>
+              <span class="text-xs font-bold uppercase tracking-wider text-blue-600">Jan - Apr 2026</span>
+              <h3 class="text-2xl font-bold text-slate-900 mt-1">Driver Drowsiness Detection</h3>
+              <p class="text-xs font-semibold text-slate-500 mt-1">Python, OpenCV, Pandas, PyTorch, NumPy, HTML, CSS</p>
+            </div>
+            <ul class="text-slate-600 text-sm space-y-2.5 list-disc list-inside leading-relaxed">
+              <li>Developed a real-time driver fatigue monitoring system using Python, OpenCV, Dlib, and PyTorch.</li>
+              <li>Used EAR, PERCLOS, blink rate, yawning, and head pose to detect driver fatigue and attention.</li>
+              <li>Built a live dashboard to display fatigue scores, driver status, accident risk, and alerts.</li>
+            </ul>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex gap-4">
+            <a href="https://github.com/lalithkrishna282/driver_monitoring_system" target="_blank" class="flex-1 py-2.5 text-center text-xs font-bold rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 transition-colors">GitHub</a>
+            <!-- <a href="#" class="flex-1 py-2.5 text-center text-xs font-bold rounded-lg bg-blue-600 hover:bg-blue-700 text-white transition-colors">Live Demo</a> -->
+          </div>
+        </div>
+
+        <!-- Project 2: Anemia Scan -->
+        <div class="bg-white rounded-2xl p-8 border border-slate-100 shadow-xl shadow-slate-100 flex flex-col justify-between space-y-6 hover:-translate-y-1 transition-all">
+          <div class="space-y-4">
+            <div class="w-14 h-14 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+              </svg>
+            </div>
+            <div>
+              <span class="text-xs font-bold uppercase tracking-wider text-emerald-600">Jul - Sept 2026</span>
+              <h3 class="text-2xl font-bold text-slate-900 mt-1">Anemia Scan</h3>
+              <p class="text-xs font-semibold text-slate-500 mt-1">Python, Flutter, OpenCV, Go, TensorFlow, Dart</p>
+            </div>
+            <ul class="text-slate-600 text-sm space-y-2.5 list-disc list-inside leading-relaxed">
+              <li>Developing a low-cost anemia risk screening system that analyzes inner-eyelid images and classifies risk as Low, Medium, or High.</li>
+              <li>Building a Flutter mobile application and an ESP32-CAM-based hardware device that capture images and send them to a shared backend for analysis.</li>
+              <li>Using MobileNetV2 and computer vision techniques to support non-invasive anemia risk screening.</li>
+              <li>Designing the system as a screening aid, with Medium/High-risk cases referred for real blood tests and medical confirmation.</li>
+            </ul>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex gap-4">
+            <a href="https://github.com/lalithkrishna282/anemiascan" target="_blank" class="flex-1 py-2.5 text-center text-xs font-bold rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 transition-colors">GitHub</a>
+            <!-- <a href="#" class="flex-1 py-2.5 text-center text-xs font-bold rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white transition-colors">Live Demo</a> -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Skills & Languages Section -->
+    <section id="skills" class="space-y-10">
+      <div class="text-center space-y-2">
+        <h2 class="text-3xl font-extrabold text-slate-900">Skills & Languages</h2>
+        <p class="text-slate-500">Core technical capabilities, tools, and spoken languages.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-md space-y-3">
+          <h3 class="font-bold text-slate-900 text-sm uppercase tracking-wider text-blue-600">Programming</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 bg-slate-100 text-slate-700 rounded-md text-xs font-semibold">Basic Python</span>
+            <span class="px-3 py-1 bg-slate-100 text-slate-700 rounded-md text-xs font-semibold">Basic MySQL</span>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-md space-y-3">
+          <h3 class="font-bold text-slate-900 text-sm uppercase tracking-wider text-blue-600">Functional</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 bg-slate-100 text-slate-700 rounded-md text-xs font-semibold">Excel</span>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-md space-y-3">
+          <h3 class="font-bold text-slate-900 text-sm uppercase tracking-wider text-blue-600">Soft Skills</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 bg-slate-100 text-slate-700 rounded-md text-xs font-semibold">Adaptability</span>
+            <span class="px-3 py-1 bg-slate-100 text-slate-700 rounded-md text-xs font-semibold">Team Collaboration</span>
+            <span class="px-3 py-1 bg-slate-100 text-slate-700 rounded-md text-xs font-semibold">Communication Skills</span>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-md space-y-3">
+          <h3 class="font-bold text-slate-900 text-sm uppercase tracking-wider text-blue-600">Languages</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 bg-slate-100 text-slate-700 rounded-md text-xs font-semibold">English</span>
+            <span class="px-3 py-1 bg-slate-100 text-slate-700 rounded-md text-xs font-semibold">Telugu</span>
+            <span class="px-3 py-1 bg-slate-100 text-slate-700 rounded-md text-xs font-semibold">Hindi</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Achievements Section -->
+    <section id="education" class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="md:col-span-2 space-y-6">
+        <h2 class="text-3xl font-extrabold text-slate-900">Education</h2>
+        <div class="space-y-4">
+          <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-md flex justify-between items-start">
+            <div>
+              <h3 class="font-bold text-slate-900">SRM Institute of Science and Technology, Tiruchirappalli</h3>
+              <p class="text-sm text-slate-600">B.Tech - Computer Science and Engineering</p>
+              <span class="inline-block mt-2 px-2.5 py-0.5 rounded text-xs font-bold bg-blue-100 text-blue-700">CGPA: 9.57</span>
+            </div>
+            <span class="text-xs font-semibold text-slate-400">2028</span>
+          </div>
+
+          <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-md flex justify-between items-start">
+            <div>
+              <h3 class="font-bold text-slate-900">Sridhar's junior college, Tirupati</h3>
+              <p class="text-sm text-slate-600">MPC - Andhra Pradesh Board of Secondary Education</p>
+              <span class="inline-block mt-2 px-2.5 py-0.5 rounded text-xs font-bold bg-emerald-100 text-emerald-700">Score: 92%</span>
+            </div>
+            <span class="text-xs font-semibold text-slate-400">2024</span>
+          </div>
+
+          <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-md flex justify-between items-start">
+            <div>
+              <h3 class="font-bold text-slate-900">Sri Kakathiya High School, piler</h3>
+              <p class="text-sm text-slate-600">Andhra Pradesh Board of Secondary Education</p>
+              <span class="inline-block mt-2 px-2.5 py-0.5 rounded text-xs font-bold bg-slate-100 text-slate-700">Score: 93%</span>
+            </div>
+            <span class="text-xs font-semibold text-slate-400">2022</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="space-y-6">
+        <h2 class="text-3xl font-extrabold text-slate-900">Achievements</h2>
+        <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-md space-y-3">
+          <div class="w-10 h-10 rounded-lg bg-amber-100 text-amber-600 flex items-center justify-center">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1.323l3.954 1.582 1.599-.8a1 1 0 01.894 1.79l-1.233.616 1.738 5.42a1 1 0 01-.285 1.05A3.989 3.989 0 0115 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.715-5.349L11 6.477V16h2a1 1 0 110 2H7a1 1 0 110-2h2V6.477L6.237 7.582l1.715 5.349a1 1 0 01-.285 1.05A3.989 3.989 0 015 15a3.989 3.989 0 01-2.667-1.019 1 1 0 01-.285-1.05l1.738-5.42-1.233-.617a1 1 0 01.894-1.788l1.599.799L9 4.323V3a1 1 0 011-1z" clip-rule="evenodd"></path>
+            </svg>
+          </div>
+          <h3 class="font-bold text-slate-900">NCC 'B' Certificate</h3>
+          <p class="text-xs font-semibold text-amber-700 uppercase">Feb 2026</p>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Successfully completed NCC training as a Cadet.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="bg-gradient-to-br from-slate-900 to-slate-800 rounded-3xl p-8 md:p-12 text-white space-y-6">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+        <div>
+          <h2 class="text-3xl font-extrabold tracking-tight">Curriculum Vitae</h2>
+          <p class="text-slate-400 text-sm mt-1">Download or inspect the official PDF version of my resume.</p>
+        </div>
+        <div class="flex gap-4">
+          <a href="resumefinal1.pdf" target="_blank" class="px-5 py-2.5 rounded-xl bg-slate-700 hover:bg-slate-600 text-white font-semibold text-sm transition-colors">
+            Open in New Tab
+          </a>
+          <a href="resumefinal1.pdf" download="Pasupuleti_Lalith_Krishna_Resume.pdf" class="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm transition-colors flex items-center gap-2">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+            </svg>
+            Download PDF
+          </a>
+        </div>
+      </div>
+      <div class="w-full h-96 rounded-xl overflow-hidden border border-slate-700 bg-slate-950">
+        <iframe src="/Users/lalithkrishnapasupuleti/Downloads/resumefinal1.pdf" class="w-full h-full" title="Resume Viewer"></iframe>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Contact & Footer -->
+  <footer class="bg-white border-t border-slate-200 py-12 px-6">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+      <div class="space-y-1">
+        <p class="font-bold text-slate-900">Pasupuleti Lalith Krishna</p>
+        <p class="text-sm text-slate-500">Tirupati, Andhra Pradesh</p>
+      </div>
+      <div class="flex flex-wrap items-center justify-center gap-6 text-sm font-semibold text-slate-600">
+        <a href="pasupuletikrishna2822@gmail.com" class="hover:text-blue-600 transition-colors">pasupuletikrishna2822@gmail.com</a>
+        <a href="tel:+916301060069" class="hover:text-blue-600 transition-colors">+91 6301060069</a>
+        <a href="https://github.com/lalithkrishna282" target="_blank" class="hover:text-blue-600 transition-colors">GitHub</a>
+        <a href="https://www.linkedin.com/in/lalithkrishna-pasupuleti-403b4a335/" target="_blank" class="hover:text-blue-600 transition-colors">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
